@@ -1,4 +1,5 @@
-# merges cv2Countours.py with client.py
+# merges cv2Countours.py with client.py to send instructions to the robo
+# to be used on Ultron
 
 
 import socket
