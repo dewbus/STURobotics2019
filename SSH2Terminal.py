@@ -4,8 +4,8 @@ import socket
 from ssh2.session import Session
 
 host = input('ip: ')
-user = 'pi'
-password = 'raspberry'
+user = input('user: ')
+password = input('pw: ')
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((host, 22))
