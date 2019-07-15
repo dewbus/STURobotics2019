@@ -5,7 +5,6 @@
 import socket
 import threading
 import sys
-import robo_functions
 import time
 import cv2
 
