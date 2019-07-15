@@ -1,4 +1,4 @@
-# todo: fix robo chat string
+# todo: verify if it takes a photo and sends it to other clients
 
 
 import socket
@@ -8,7 +8,19 @@ import robo_functions
 import time
 import cv2
 import picamera
+import os
 
+def imageCapture():
+    with picamera.PiCamera() as camera:
+        camera.resolution = (1280, 720)
+        camera.capture("/home/pi/stuRobo2/image1.jpg")
+
+def imageSend():
+    f = open("image1.jpg", "rb")
+    l = os.path.getsize("image1.jpg")
+    m = f.read(l)
+    Client.sock.send(m)
+    f.close()
 
 class Client:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # AF_INET = IPv4
@@ -36,21 +48,31 @@ class Client:
             if (str(data, 'utf-8')) == 'f':
                 robo_functions.forward(tf)
                 robo_functions.sit()
+                imageCapture()
+                imageSend()
 
             if (str(data, 'utf-8')) == 's':
                 robo_functions.sit()
+                imageCapture()
+                imageSend()
 
             if (str(data, 'utf-8')) == 'rv':
                 robo_functions.reverse(tf)
                 robo_functions.sit()
+                imageCapture()
+                imageSend()
 
             if (str(data, 'utf-8')) == 'l':
                 robo_functions.pivot_left(ts)
                 robo_functions.sit()
+                imageCapture()
+                imageSend()
 
             if (str(data, 'utf-8')) == 'r':
                 robo_functions.pivot_right(tx)
                 robo_functions.sit()
+                imageCapture()
+                imageSend()
 
             print(str(data, 'utf-8'))
             
