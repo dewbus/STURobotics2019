@@ -21,8 +21,6 @@ class Client:
         iThread.daemon = True  # .daemon kills thread when .py is closed
         iThread.start()  # starts thread
 
-        robo_functions.init()
-        
         while True:
             data = self.sock.recv(1024)  # message max length in bytes
             if not data:
