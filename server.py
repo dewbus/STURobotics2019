@@ -25,7 +25,7 @@ class Server:
     def run(self):
         while True:
             c, a = self.sock.accept()
-            sThread = threading.Thread(target=self.handler, args=(c, a))  # assigns the [s]erver to a thread
+            sThread = threading.Thread(target=self.handler, args=(c, a))  # assigns the server to a thread
             sThread.daemon = True
             sThread.start()
             self.connections.append(c)
