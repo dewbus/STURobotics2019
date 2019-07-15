@@ -1,4 +1,4 @@
-# todo: fix robo chat string
+# merges cv2Countours.py with client.py
 
 
 import socket
@@ -29,7 +29,7 @@ class Client:
                 print("Connection terminated.")
                 break
 
-            frame = cv2.imread("recieved.jpg")  # read the video in frames
+            frame = cv2.imread("recieved.jpg")  # read the video in frames # todo collect .jpg from robo
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)  # convert each frame to grayscale.
             blur = cv2.GaussianBlur(gray, (5, 5), 0)  # blur the grayscale image
             ret, th1 = cv2.threshold(blur, 35, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)  # using threshold remove noise
@@ -49,15 +49,15 @@ class Client:
 
             if cx <= 150:
                 print("go left")
-                self.sock.send(bytes(input("l"), 'utf-8'))
+                self.sock.send(bytes(input("l"), 'utf-8')) # todo: fix robo chat string
 
             elif cx >= 170:
                 print("go right")
-                self.sock.send(bytes(input("r"), 'utf-8'))
+                self.sock.send(bytes(input("r"), 'utf-8')) # todo: fix robo chat string
 
             elif cx > 151 and cx < 169:
                 print("go straight")
-                self.sock.send(bytes(input("f"), 'utf-8'))
+                self.sock.send(bytes(input("f"), 'utf-8')) # todo: fix robo chat string
 
             print(str(data, 'utf-8'))
             
