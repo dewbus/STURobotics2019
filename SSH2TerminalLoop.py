@@ -1,4 +1,5 @@
 # SSH's into address' terminal
+# todo code the loop so that multiple inputs can be passed through
 
 import socket
 from ssh2.session import Session
