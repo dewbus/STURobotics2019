@@ -3,10 +3,7 @@
 
 import socket
 import threading
-import sys
 import robo_functions
-import time
-import cv2
 import picamera
 import os
 
@@ -47,30 +44,30 @@ class Client:
 
             if (str(data, 'utf-8')) == 'f':
                 robo_functions.forward(tf)
-                robo_functions.sit()
+                robo_functions.sit(tf)
                 imageCapture()
                 imageSend()
 
             if (str(data, 'utf-8')) == 's':
-                robo_functions.sit()
+                robo_functions.sit(tf)
                 imageCapture()
                 imageSend()
 
             if (str(data, 'utf-8')) == 'rv':
                 robo_functions.reverse(tf)
-                robo_functions.sit()
+                robo_functions.sit(tf)
                 imageCapture()
                 imageSend()
 
             if (str(data, 'utf-8')) == 'l':
                 robo_functions.pivot_left(ts)
-                robo_functions.sit()
+                robo_functions.sit(tf)
                 imageCapture()
                 imageSend()
 
             if (str(data, 'utf-8')) == 'r':
                 robo_functions.pivot_right(tx)
-                robo_functions.sit()
+                robo_functions.sit(tf)
                 imageCapture()
                 imageSend()
 
