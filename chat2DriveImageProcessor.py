@@ -8,23 +8,15 @@ s.connect(("192.168.0.195", 10000))
 
 data = None
 
-while True:
+if s.recv(1024):
 
-    m = s.recv(1024)
+    while m:
 
-    data = m
+        m = s.recv(1024)
 
-    if m:
+        data += m
 
-        while m:
 
-            m = s.recv(1024)
-
-            data += m
-
-        else:
-
-            break
 f = open("recieved.jpg", "wb")
 
 f.write(data)
@@ -32,6 +24,7 @@ f.write(data)
 f.close()
 
 print("Done receiving")
+
 
 #s.close()
 
