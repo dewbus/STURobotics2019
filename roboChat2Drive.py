@@ -7,7 +7,7 @@ import sys
 import robo_functions
 import time
 import cv2
-import picamera
+
 
 
 class Client:
@@ -17,7 +17,7 @@ class Client:
     def __init__(self):
         self.sock.connect((address, 10000))
 
-        iThread = threading.Thread(target=self.sendMsg)  # assigns message [i]nput to a thread
+        iThread = threading.Thread(target=self.sendMsg)  # assigns message input to a thread
         iThread.daemon = True  # .daemon kills thread when .py is closed
         iThread.start()  # starts thread
 
