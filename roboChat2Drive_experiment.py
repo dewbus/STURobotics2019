@@ -42,34 +42,36 @@ class Client:
             ts = 1.1
             tx = 0.2
 
-            if (str(data, 'utf-8')) == 'f':
-                robo_functions.forward(tf)
-                robo_functions.sit(tf)
-                imageCapture()
-                imageSend()
+            try:
+                if (str(data, 'utf-8')) == 'f':
+                    robo_functions.forward(tf)
+                    robo_functions.sit(tf)
+                    imageCapture()
+                    imageSend()
 
-            if (str(data, 'utf-8')) == 's':
-                robo_functions.sit(tf)
-                imageCapture()
-                imageSend()
+                if (str(data, 'utf-8')) == 's':
+                    robo_functions.sit(tf)
+                    imageCapture()
+                    imageSend()
 
-            if (str(data, 'utf-8')) == 'rv':
-                robo_functions.reverse(tf)
-                robo_functions.sit(tf)
-                imageCapture()
-                imageSend()
+                if (str(data, 'utf-8')) == 'rv':
+                    robo_functions.reverse(tf)
+                    robo_functions.sit(tf)
+                    imageCapture()
+                    imageSend()
 
-            if (str(data, 'utf-8')) == 'l':
-                robo_functions.pivot_left(ts)
-                robo_functions.sit(tf)
-                imageCapture()
-                imageSend()
+                if (str(data, 'utf-8')) == 'l':
+                    robo_functions.pivot_left(ts)
+                    robo_functions.sit(tf)
+                    imageCapture()
+                    imageSend()
 
-            if (str(data, 'utf-8')) == 'r':
-                robo_functions.pivot_right(tx)
-                robo_functions.sit(tf)
-                imageCapture()
-                imageSend()
+                if (str(data, 'utf-8')) == 'r':
+                    robo_functions.pivot_right(tx)
+                    robo_functions.sit(tf)
+                    imageCapture()
+                    imageSend()
+            except :
 
             print(str(data, 'utf-8'))
             

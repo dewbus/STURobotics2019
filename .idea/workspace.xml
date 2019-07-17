@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="716a4e13-414d-4266-acb5-edb9fc9abf06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/roboChat2Drive_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/roboChat2Drive_experiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboImageServerCompanion.py" beforeDir="false" afterPath="$PROJECT_DIR$/roboServerCompanion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboServerCompanion.py" beforeDir="false" afterPath="$PROJECT_DIR$/roboServerCompanion.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roboServerCompanion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="316">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="e#42#55#0" expanded="true" />
               </folding>
@@ -26,33 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456">
-              <caret line="5" column="61" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roboChat2Drive_experiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="307">
+              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
               <folding>
                 <element signature="e#67#80#0" expanded="true" />
               </folding>
@@ -63,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../workfield.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
+            <state relative-caret-position="1558">
               <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
@@ -72,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/Serverimage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="333">
+              <caret line="29" column="1" selection-start-line="29" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="e#83#94#0" expanded="true" />
               </folding>
@@ -84,13 +73,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/clientimage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="474">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,8 +102,10 @@
         <option value="$PROJECT_DIR$/roboChat2Drive.py" />
         <option value="$USER_HOME$/Downloads/Serverimage.py" />
         <option value="$USER_HOME$/Downloads/clientimage.py" />
-        <option value="$PROJECT_DIR$/roboChat2Drive_experiment.py" />
         <option value="$PROJECT_DIR$/../workfield.py" />
+        <option value="$PROJECT_DIR$/roboServerCompanion.py" />
+        <option value="$PROJECT_DIR$/classes.py" />
+        <option value="$PROJECT_DIR$/roboChat2Drive_experiment.py" />
       </list>
     </option>
   </component>
@@ -160,8 +158,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.roboChat2Drive_experiment">
-    <configuration name="Serverimage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.classes">
+    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="STURobotics2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Serverimage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,6 +225,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="roboServerCompanion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="STURobotics2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roboServerCompanion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="STURobotics2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,10 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.roboServerCompanion" />
         <item itemvalue="Python.server" />
+        <item itemvalue="Python.classes" />
         <item itemvalue="Python.roboChat2Drive_experiment" />
         <item itemvalue="Python.clientimage" />
-        <item itemvalue="Python.Serverimage" />
       </list>
     </recent_temporary>
   </component>
@@ -268,19 +289,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563203487995</updated>
-      <workItem from="1563203495760" duration="11978000" />
+      <workItem from="1563203495760" duration="20531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11978000" />
+    <option name="totallyTimeSpent" value="20531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20852765" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20852765" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -290,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.2852349" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -306,9 +326,11 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/STURobotics2019$roboServerCompanion.coverage" NAME="roboServerCompanion Coverage Results" MODIFIED="1563303294972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/STURobotics2019$clientimage.coverage" NAME="clientimage Coverage Results" MODIFIED="1563211980813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/STURobotics2019$classes.coverage" NAME="classes Coverage Results" MODIFIED="1563303126464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/STURobotics2019$roboChat2Drive_experiment.coverage" NAME="roboChat2Drive_experiment Coverage Results" MODIFIED="1563215530430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/STURobotics2019$server.coverage" NAME="server Coverage Results" MODIFIED="1563216541307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/STURobotics2019$server.coverage" NAME="server Coverage Results" MODIFIED="1563303291650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/STURobotics2019$Serverimage.coverage" NAME="Serverimage Coverage Results" MODIFIED="1563211975138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
   <component name="editorHistoryManager">
@@ -379,56 +401,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/clientimage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roboChat2Drive_experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding>
-            <element signature="e#67#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../workfield.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
+        <state relative-caret-position="1558">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Serverimage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="333">
+          <caret line="29" column="1" selection-start-line="29" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="e#83#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.py">
+    <entry file="file://$USER_HOME$/Downloads/clientimage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="474">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" selection-start-line="12" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/roboServerCompanion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="316">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="e#42#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roboChat2Drive_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding>
+            <element signature="e#67#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

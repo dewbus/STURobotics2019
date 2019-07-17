@@ -27,6 +27,10 @@ class Client:
                 print("Connection terminated.")
                 break
 
+
+
+
+
             frame = cv2.imread("recieved.jpg")  # read the video in frames # todo collect .jpg from robo
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)  # convert each frame to grayscale.
             blur = cv2.GaussianBlur(gray, (5, 5), 0)  # blur the grayscale image
