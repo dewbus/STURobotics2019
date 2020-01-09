@@ -33,5 +33,4 @@ Alec Quiroga
 Sebastian Calzadilla
 
 ## Acknowledgments
-Our mentor, Dr. Mondesire and
-St. Thomas University
+St. Thomas University's Dr. Mondesire, our mentor
