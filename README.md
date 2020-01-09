@@ -12,6 +12,7 @@ Files made during STURobotics 2019. Included is code designed to allow an autono
 
 ## Installation
 1.) Clone or download source files from the repository
+
 2.) Run roboChat2Drive.py on both server machine and the RaspberryPi
 
 # Git Commands:
