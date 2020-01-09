@@ -15,11 +15,11 @@ Files made during STURobotics 2019. Included is code designed to allow an autono
 2.) 
 
 # Git Commands:
-## clone : creates a clone of repository at the current directory
-## add : add files to the index
-## commit: commit the changes
-## push: send the commits to the repository
-## pull: pull files from repository
+clone : creates a clone of repository at the current directory
+add : add files to the index
+commit: commit the changes
+push: send the commits to the repository
+pull: pull files from repository
 
 ## Authors
 Louis Alvarez
