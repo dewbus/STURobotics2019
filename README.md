@@ -13,17 +13,13 @@ Files made during STURobotics 2019. Included is code designed to allow an autono
 ## Installation
 1.) Clone or download source files from the repository
 2.) 
+
 # Git Commands:
-## clone :
-creates a clone of repository at the current directory
-## add : 
-add files to the index
-## commit: 
-commit the changes
-## push: 
-send the commits to the repository
-## pull: 
-pull files from repository
+## clone : creates a clone of repository at the current directory
+## add : add files to the index
+## commit: commit the changes
+## push: send the commits to the repository
+## pull: pull files from repository
 
 ## Authors
 Louis Alvarez
