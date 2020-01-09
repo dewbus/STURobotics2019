@@ -27,8 +27,10 @@ pull: pull files from repository
 
 ## Authors
 Louis Alvarez
+
 Alec Quiroga
-Sebastien Calzadilla
+
+Sebastian Calzadilla
 
 ## Acknowledgments
 Our mentor, Dr. Mondesire and
